@@ -1,0 +1,476 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Primera Aplicacion</title>
+
+<!--Grupo CSS-->
+<link rel="stylesheet" href="css/app3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+
+
+</head>
+
+<body>
+<div data-role="page" id="Principal" data-theme="b">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>Volcan Popocatepetl</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+    
+     
+    
+    <div data-role="collapsible" data-content-theme="false">
+      <h1>Datos Importantes</h1>
+       <div>
+       <br>
+       
+       <center><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','imagenes/que_es2.jpg',1)"><img src="imagenes/que_es.jpg" width="400" height="294" id="Image2" /></a></center>
+      
+    </div>
+    <div>
+    <h2>¿Que es un Volcan?</h2>
+ Un volcán (del nombre del dios mitológico romano Vulcano) es una estructura geológica por la que emergen magma en forma de lava, ceniza volcánica y gases provenientes del interior de la Tierra. El ascenso de magma ocurre en episodios de actividad violenta denominados erupciones, que pueden variar en intensidad, duración y frecuencia, desde suaves corrientes de lava hasta explosiones extremadamente destructivas. En ocasiones, los volcanes adquieren una forma cónica por la acumulación de material de erupciones anteriores. En la cumbre se encuentra su cráter o caldera.
+Los volcanes existen en la Tierra, en otros planetas y satélites, algunos están formados por materiales considerados fríos y se denominan criovolcanes. En ellos, el hielo actúa como roca, mientras que el agua fría líquida interna actúa como magma; esto ocurre en la luna de Júpiter llamada Europa.
+Por lo general, los volcanes se forman en los límites de placas tectónicas, aunque existen los llamados puntos calientes, en donde no hay contacto entre placas. Un ejemplo clásico son las islas Hawái.
+Los volcanes pueden tener muchas formas y despedir distintos productos. Algunas de las formas más comunes son estratovolcán, cono de escoria, caldera volcánica y volcán en escudo. También existen numerosos volcanes submarinos ubicados a lo largo de las dorsales oceánicas y otros que alcanzan alturas sobre los 6000 metros sobre el nivel del mar, entre ellos, el volcán más alto del mundo, el Nevado Ojos del Salado, en Argentina y Chile, siendo además la segunda cumbre más alta de los hemisferios sur y occidental (solo superado por el argentino cerro Aconcagua) 
+Parte de estos materiales se acumulan alrededor del lugar de salida, formando cerros o montañas que llegan a alcanzar grandes alturas. Los materiales calientes pueden salir por grietas o por el cráter, que es un orificio en la parte superior del cerro o montaiña volciánica, formado por erupciones anteriores.Un volcán es, básicamente, una abertura o ruptura en la superficie de un planeta o en la corteza terrestre; existen algunas zonas geográficas en las que los volcanes realmente dominan el paisaje, elevándose por varios metros encima de la superficie.
+Los volcanes son un fenómeno muy interesante de la geología y muy atractivos, en caso de que uno esté a salvo de los peligros que puede significar, por su inmenso atractivo.
+
+    <h2>¿Como se forma?</h2>
+    Los volcanes se forman cuando el material caliente del interior de la Tierra asciende y se derrama sobre la corteza. Este material caliente, llamado magma, puede provenir de dos fuentes; del material derretido de la corteza en subducción, el cual es liviano y efervescentedespués de haber sido derretido o, provenir de mucho más adentro de un planeta, de un material que es muy liviano y efervescente debido a que está muy *caliente*.
+El magma que proviene del fondo llega y se amontona en un reservorio, en una región porosa de rocas en capas conocida como; la cámara de magma. Eventualmente, no siempre, el magma hace erupción hacia la superficie. Fuertes terremotos acompañan al magma ascendente y el tamaño del cono volcánico podría aumentar en apariencia justo antes de la erupción, tal y como se muestra en esta imagen. Frecuentemente, los científicos monitorean la apariencia cambiante de un volcán, especialmente antes de una erupción. Las diferentes razones por las que se forma un volcán son:
+Mediante columnas de magma ascendente o puntos de calor en la litósfera,
+como resultante de un proceso de subducción de la litósfera cercana.
+Cuando ocurre una erupción el magma normalmente se acumula en el cráter y al desbordar el magma inunda toda la zona alrededor de volcán. Entonces el material acumulado de erupciones anteriores, junto con la presión del reservorio de magma dentro de la corteza terrestre, forman una montaña cónica llamada volcán.
+No existen dos volcanes idénticos. Algunos de ellos apenas si han experimentado una erupción, mientras que otros mantienen una corriente de lava constante y pueden llegar a medir desde unos cien metros hasta varios kilómetros de altura.
+También hay volcanes en otros planetas como en Venus, que tiene unos 1600 volcanes importantes. En Marte se encuentra el volcán más grande del sistema solar: el Monte Olimpo de 600 kilómetros de base y 27 de altura.
+    </div>
+    </div>
+    </div> 
+    <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h1>Tipos de erupciones volcánicas</h1>
+       <div>
+       <br>
+    </div>
+    <h2><center>Tipos de erupciones magmáticas</center></h2>
+    <div>
+       
+           <br>
+           <img src="imagenes/erupciones_magmaticas.jpg" width="30%"  height="30%" align="left" border="2px"> La combinación posible de los factores recién señalados entre sí explica la existencia de varios tipos de volcanes a los cuales corresponden erupciones características. En primer lugar conviene establecer una distinción entre la erupción puntual del magma por una chimenea, y la erupción lineal por una fisura del terreno que puede ser bastante larga. En este último caso se tiene un volcanismo lávico: las erupciones no son violentas y adoptan la forma de gigantescas efusiones de basaltos muy fluidos, cuyas coladas cubren grandes extensiones de terreno alrededor del volcán.  
+            <h2>Hawaiana</h2>
+            Presente en volcanes con volcanismo lávico, son nombradas así por los volcanes de las islas de Hawái. Sus lavas son muy fluidas, sin que tengan lugar desprendimientos gaseosos explosivos; estas lavas se desbordan solo cuando rebasan el cráter (por lo que forman un lago de lava) y se deslizan con facilidad por las laderas, formando verdaderas corrientes a grandes distancias y construyendo un cono volcánico con una pendiente muy suave, como se ve en una imagen reciente de la caldera del Halemaumau, en el volcán Kilauea, en la isla de Hawái. Algunas partículas de lava, al ser arrastradas por el viento, forman hilos cristalinos que los nativos llaman cabellos de la diosa Pelé (divinidad del fuego). Son los más comunes en el mundo.
+            <h2>Estromboliana</h2>
+            Recibe el nombre del Stromboli, volcán de las islas Lípari (mar Tirreno), al Norte de Sicilia. La erupción es permanente, acompañada de frecuentes paroxismos explosivos, y de vez en cuando de coladas de lava. Ésta es fluida, y acompaña al desprendimiento de gases abundantes y violentos, con proyecciones de escorias, bombas y lapilli, debido a que los gases pueden desprenderse con facilidad, no se producen pulverizaciones o cenizas. Cuando la lava rebasa por los bordes del cráter, desciende por sus laderas y barrancos, pero no alcanza tanta extensión como la del tipo del volcán hawaiano.
+             <h2>Vulcaniana</h2>
+            Su nombre proviene del volcán Vulcano en las islas Lípari. Se desprenden grandes cantidades de gases de un magma poco fluido, que se consolida con rapidez; por ello las explosiones son muy fuertes y la lava ácida y muy viscosa que emite se pulveriza, produciendo mucha ceniza, lanzada al aire acompañadas de otros materiales fragmentarios. Cuando la lava sale al exterior se consolida rápidamente, pero los gases que se desprenden, rompen y resquebrajan su superficie, que por ello resulta áspera y muy irregular, formándose lavas cordadas.
+             <h2>Pliniana o vesubiana</h2>
+            Reciben su nombre en honor a Plinio el Viejo, que falleció en una, y su sobrino Plinio el Joven, que fue el primero en describirlas. La Erupción pliniana difiere de la vulcaniana en que la presión de los gases en la cámara de magma es muy fuerte y produce explosiones muy violentas. Es distintivo de ellas el que las lavas no sean usualmente basálticas, sino riolíticas, y que exista una gran emisión de pumitas, gases tóxicos y aerosoles. Forma nubes ardientes en forma de pino u hongo, que, al enfriarse, producen precipitaciones de cenizas, que pueden llegar a sepultar ciudades, como le ocurrió a Pompeya y Herculano en el año 79 d. C.
+             <h2>Peleana</h2>
+            De los volcanes de las Antillas es célebre el de Monte Pelée, en Martinica por su erupción de 1902, que destruyó su capital, San Pedro. La lava es extremadamente viscosa y se consolida con gran rapidez, llegando a tapar por completo el cráter; la enorme presión de los gases, sin salida, levanta este tapón que se eleva formando una gran aguja rocosa o bien destroza la parte superior de la ladera. Así ocurrió el 8 de mayo de 1902, cuando las paredes del volcán cedieron a tan enorme empuje, abriéndose un conducto lateral por el que salieron con extraordinaria fuerza los gases acumulados a elevada temperatura y que, mezclados con cenizas, formaron la nube ardiente que alcanzó 28.000 víctimas, a una velocidad cercana a los 500 km/h. Como resultado de esta erupción volcánico quedó la formación de un pitón volcánico.
+            <h2>Krakatoana</h2>
+            Una explosión volcánica muy terrible, fue la del volcán Krakatoa. Originó una tremenda explosión y enormes maremotos. Este tipo de erupciones se deben a que la lava ascendente es muy viscosa, con una temperatura bastante baja, con lo que va cerrando al enfriarse la abertura del cráter lo cual va acumulando gases que al final ocasionan una gran explosión con la voladura de parte del cráter y, muchas veces, con la formación de un pitón volcánico, es decir, un monte o roque de forma cilíndrica formado por la extrusión de una lava muy viscosa, es decir, poco líquida, que se solidifica rápidamente.
+            
+            
+            <h2><center>Tipos de Erupcion Freatomagmaticas</center></h2>
+            
+            <h2>Erupciones surtseyánas</h2>
+           Una erupción Surtseyana o hidrovolcánica es un tipo de erupción volcánica en aguas poco profundas que causa  <img src="imagenes/erupciones_freatomagmaticas.jpg" width="30%"  height="30%" align="right" border="2px">interacciones entre el agua y lava, llamado así después de su más famoso ejemplo, la erupción y la formación de la isla de Surtsey en la costa de Islandia en 1963.
+            <h2>Erupciones submarinas</h2>
+            Las erupciones submarinas son más frecuentes que las de los volcanes que emiten en las tierras emergentes. Sin embargo, suelen pasar inadvertidas porque la presión elevada del agua en las zonas abisales provoca la disolución de los gases y detiene las proyecciones; así es como ningún signo de la erupción puede verse en la superficie del mar. Caso contrario es el de las erupciones en el fondo de los lagos, que es observable en la superficie.
+            <h2>Erupciones subglaciales</h2>
+            Las erupciones subglaciales son un tipo de erupción volcánica caracterizada por la interacción entre la lava y hielo, a menudo bajo un glaciar.
+            
+            <h2><center>Erupcion Freaticas</center></h2>
+            
+            <img src="imagenes/erupciones_freaticas.jpg" width="30%"  height="30%" align="left" border="2px">
+            <h2>Erupción límnica</h2>
+            Una erupción límnica (también llamada "fenómeno del lago explosivo") es un extraño desastre natural, en el cual el dióxido de carbono erupciona súbitamente de las profundidades de un lago, asfixiando a la fauna, al ganado y a los seres humanos. Tal erupción también puede originar tsunamis en el lago en la medida que el CO2 asciende a la superficie desplazando agua. Los científicos creen que los deslizamientos de tierra, la actividad volcánica o ciertas explosiones pueden desencadenar una erupción de este tipo.
+             <h2>Erupción freática</h2>
+            Una erupción freática es aquella que ocurre cuando el magma de un volcán, cuya temperatura es extrema (600 Cº-1170 Cº), se pone en contacto con el suelo o una superficie que contiene agua, la cual se evapora rápidamente causando una explosión de vapor, agua, ceniza, piedras, etc.
+             
+            </div>
+         </div>
+    </div>
+         
+   <!--Listas--> 
+    
+<div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Volcan Popocatepetl</h2>
+    <p>Se muestra Informacion acerca del volcan popocatepetl</p>
+      </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Volcan Calbuco</h2>
+      <p>Se muestra Informacion acerca del volcan Calbuco</p>
+      </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Volcan de Colima</h2>
+      <p>Se muestra Informacion acerca del volcan de Colima </p>
+      </a>
+  </li>
+  </ul>
+</div>
+<br>
+
+<!-- Start WOWSlider.com -->
+<iframe src="indexwow.html" style="width:640px;height:360px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+  <!--Ultimos dos Collapsables-->
+
+
+<div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h1>Actividad</h1>
+       <div>
+       <br>
+    </div>
+    <center>
+    <h2>Hay tres tipos de volcanes dependiendo de su actividad:</h2>
+    
+    <h2>Extintos:</h2>
+    <div>
+    <img src="imagenes/actividad_extinta.jpg" width="30%" height="30%">
+    <br>
+    Como puedes adivinar hablamos de volcanes ya muertos y que no entrarán más en erupción, aunque raramente pueden reactivarse. Antiguamente fueron grandes volcanes y expulsaron magma, pero ahora están "apagados".
+    </div>
+    <h2>Activos:</h2>
+    <div>
+    <img src="imagenes/actividad_activa.jpg" width="30%" height="30%">
+    <br>
+   Son los que están en posibilidad de erupción y que intermitentemente se ponen en marcha. Sus erupciones pueden durar entre minutos y años. Aunque la mayoría del tiempo están en reposo.
+    </div>
+    <h2>Durmientes:</h2>
+    <div>
+    <img src="imagenes/actividad_durmiente.jpg" width="30%" height="30%">
+    <br>
+   Son una mezcla de los dos anteriores, no están apagados, pero tampoco activos. Han entrado alguna vez en erupción pero en pocas ocasines. Se mantiene calientes, dando "señales de vida" a través de aguas termales o fumarolas.
+   
+   </div>
+  </div>
+ </div>
+</center>  
+
+<div data-role="main" class="ui-content">
+ <div data-role="collapsible" data-content-theme="false">
+    <h1>Datos de Prevencion para el Ciudadano</h1>
+    <center><img src="imagenes/prevencion1.jpg" width="317" height="294"></a></center>
+    <h2>¿Es peligroso vivir cerca de un volcán?</h2>
+  <div>
+    Los volcanes siempre representan un riesgo y por lo tanto, preventivamente, debemos conocer los peligros que puede presentar el volcán más cercano a nosotros. Sin embargo es poco frecuente que un volcán entre, en actividad sin avisar.
+  </div>
+  <h2>¿Cómo puede dañarme un volcán?</h2>
+  <div>
+  <img src="imagenes/erupcion.jpg" width="317" height="294" align="left">
+  
+    Los daños que genera un volcán, van siempre en función de dos cosas:
+	El tipo de erupción y su magnitud
+	El grado de preparación de la población en la zona de riesgo para enfrentarlos.
+    Los volcanes pueden dañar, poco o mucho, debido a la forma de la erupción.
+    Cuando son, vapores no hay daño, pero si junto a esos vapores salen grandes cantidades de gases tóxicos, en altas concentraciones puede provocar daños a personas y animales que se encuentren     cercanos al crater. 
+    Otra forma es la caida de pedazos de roca ardientes (flujos pirocásticos) que pueden bajar del volcán a gran velocidad como si fueran un líquido y arrasar todo a su paso. 
+    También es posible que se produzcan flujos de lodo porque el calor derrite la nieve acumulada en la parte alta de volcián haciéndola bajar mezclada con tierra y rocas. 
+    En muchos casos el volcán arroja cenizas que, de acuerdo con su tamaño, caerán a diferentes distancias. Cuando se acumulan en los techos frágiles pueden derrumbarlos. Debe evitarse respirar la     ceniza, la medida preventiva es el uso de tapabocas o pañuelos.
+    Si la erupciión arroja lava, entonces el daño puede producirse por su gran calor (incendios) y peso (derrumbes). La velocidad de la lava puede ser lenta o relativamente rápida, eso depende de lo inclinado del terreno y lo espeso de ella.
+  </div>
+  <h2>¿Cómo evito los daños?</h2>
+  <div>
+   Lo más seguro es vivir alejado de los volcanes: si eso no es posible, hay que evitar construir en áreas profundas o lechos de ríos, cañadas, barrancas, etc. 
+   Si vivimos cerca de un volcán, una buena idea para la construcción de nuestra casa es que cuente con techos fuertes de dos aguas, de manera que, si llega a caer ceniza, la inclinación del techo la   desaloje.
+  </div>
+  <h2>¿Cuáles son los pasos más Importantes del Plan?</h2>
+  <div>
+   Conocer qué cosas necesitamos hacer para cooperar con el personal de proteccion civil;tener reunidos nuestros documentos más importantes y guardarlos en un solo paquete, listos para tornarlos y    salir con ellos si se requiere. 
+   También hay que saber cómo se cierran las llaves de gas y cómo se corta la luz. Al salir todas las puertas y ventanas deben quedar bien cerradas y aseguramos de que tenernos las llaves. 
+   Cuando el personal de protección civil nos invite a participar en un simulacro de evacuación, debemos hacerlo, porque la práctica hace al maestro.
+  </div>
+  <h2>¿Qué hay que hacer si tenemos que evacuar?</h2>
+  <div>
+   Cuando el personal de protección civil dé la señal de evacuación, es porque se considera indispensable hacerlo para proteger tu vida y la de tu familia. Sigue entonces sus instrucciones y mantén    la calma, pero asegúrate que tus familiares están presentes en el punto acordado o sitio de reunión para iniciar la evacuación. No pierdas tiempo tratando de llevar pertenencias o animales que    sólo dificultan la evacuación
+  </div>
+  <h2>¿Eso es todo lo que tengo que hacer?</h2>
+  <div>
+  <img src="imagenes/que_hacer.jpg" width="300px" height="200px" align="left" >
+  
+   Las actividades a realizar durante un simulacro o una, evacuación son muchas, y requieren de que las conozcas. Si deseas participar en labores de organización, apoyo y auxilio, intégrate al Comité Local de Protección Civil.
+  </div>
+  <h2>¿Qué debo hacer al regresar a la casa?</h2>
+  <div>
+  <img src="imagenes/casa.jpg" width="20%" height="20%" align="right" >
+   Antes de entrar a tu casa revísala. Si presenta daños y no estás seguro de su condición pide a las autoridades y/o los cuerpos de protección civil que la verifiquen. Observa si los servicios que tenía antes de la evacuación están en condiciones de seguir funcionando, en caso contrario informa a las autoridades respectivas para su restablecimiento.
+Debes permanecer alerta, pues es la mejor forma de realizar nuestra vida cotidiana con la seguridad de que, ante un llamado de emergencia, nuestros actos serán los correctos para apoyar las acciones de Protección civil
+
+  </div>
+ </div>
+</div>
+      
+      
+
+<div data-role="footer" align="center" data-theme="b">
+  <div>
+    <h4>Aplicacion Tres</h4>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+  </div>
+  <div>
+    <h4>Oswaldo Perez Valiente</h4>
+  </div>
+</div>
+</div>
+
+
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Volcan Popocatepetl</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Tamaño:</h1>
+         
+           El volcán tiene glaciares perennes cerca de la boca del cono, en la punta de la montaña. Es el segundo volcán más alto           de México, con una altitud máxima de 5500 metros sobre el nivel del mar, sólo después del Citlaltépetl de 5610 msnm.1Su           altura       es de       5500 msnm, es de forma cónica, tiene un diámetro de 25 km en su base y la cima es el corte           elíptico de un cono       y tiene una       orientación noreste-suroeste. La distancia entre las paredes de su cráter           varía entre los 660 y los 840 
+      </div>
+    </div> 
+  <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Antiguedad: </h1>
+         
+           El Popocatépetl es un estratovolcán, y los estudios paleomagnéticos que se han hecho de él indican que tiene una edad           aproximada de 730 000 años
+
+      </div>
+    </div>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Localizacion:</h1>
+         
+          es un volcán activo localizado en el centro de México, en los límites territoriales de los estados de Morelos, Puebla y México. Se localiza a unos 72 km al sureste de la Ciudad de México, 43 km de Puebla, 63 km de Cuernavaca, y 53 km de Tlaxcala.
+
+      </div>
+    </div> 
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Actividad: </h1>
+         
+           El Popocatépetl ha estado desde siempre en actividad, a pesar de haber estado en reposo durante buena parte de la segunda mitad del siglo XX. En 1991 se inició un incremento en su actividad y a partir de 1993 las fumarolas eran ya claramente visibles desde distancias de alrededor de 50 kilómetros
+
+      </div>
+    </div> 
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Monitoreo: </h1>
+         
+           El Popocatépetl ha estado desde siempre en actividad, a pesar de haber estado en reposo durante buena parte de la segunda mitad del siglo XX. En 1991 se inició un incremento en su actividad y a partir de 1993 las fumarolas eran ya claramente visibles desde distancias de alrededor de 50 kilómetros
+Monitoreo:En las últimas 24 horas, por medio de los registros sísmicos del sistema de monitoreo del volcán Popocatépetl, se identificaron 110 exhalaciones de baja intensidad que solo fueron acompañadas por emisiones de vapor de agua, gases y ligeras cantidades de ceniza. Adicionalmente se presentaron 2 explosiones el día de ayer a las 22:21 h (imagen 1) y a las 23:28 h (imagen 2). Se tuvo visibilidad parcial y se observó una muy débil emisión de vapor de agua y gas que los vientos dispersaron al noreste. 
+Durante la noche se observó ligera incandescencia que aumentaba al momento de algunas de las exhalaciones (imagen 3). 
+Desde hoy por la mañana y hasta el momento de este informe se ha observado una ligera emisión de vapor de agua y gas que los vientos dispersan al noreste (imagen 4). 
+Los demás parámetros de monitoreo permanecen sin cambios importantes.El CENAPRED exhorta a NO ACERCARSE al volcán y sobre todo al cráter, por el peligro que implica la caída de fragmentos balísticos 
+      </div>
+    </div> 
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Medidas de Prevencion en cuanto a erupcion y caidas de ceniza:</h1>
+         
+          En caso de caída de ceniza, se hacen las siguientes recomendaciones: 
+Cubrir nariz y boca con un pañuelo húmedo o cubreboca. 
+Limpiar ojos y garganta con agua pura. 
+Utilizar lentes de armazón y evitar los lentes de contacto para reducir la irritación ocular. 
+Cerrar ventanas o cubrirlas y permanecer lo más posible dentro de la casa. 
+
+      </div>
+    </div>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Que estados Afectaria:</h1>
+         En vista de que la lava puede salir por cualquier fisura que se produzca en sus laderas y no sólo por su cráter, es difícil conocer por adelantado cuáles serían las zonas afectadas en caso de erupción. Lo más que se puede decir es que si la lava saliera del lado norte o noreste, o este y sureste, el estado de Puebla se vería afectado. Si saliera del lado sur se vería afectado el estado de México y posiblemente el estado de Morelos, y si saliera del lado oeste y suroeste se vería afectada la región en donde se encuentra la población de Amecameca. El área de la superficie afectada dependerá de la viscosidad de la lava. Como última posibilidad teórica, si se llenara el cráter con lava (hecho poco probable), ésta se desparramaría por el lado noreste, dirección en que se encuentra el borde más bajo del mismo.Las zonas que serían afectadas por las cenizas y los gases del Popocatépetl dependerían de la dirección de los vientos, principalmente a la altura del cráter. A grandes rasgos, se puede decir que si las emisiones ocurrieran de noviembre a abril, el valle de Puebla sería el afectado. Si la erupción ocurriera de junio a septiembre, la región sur del estado de México y el estado de Morelos serían las regiones de mayores riesgo, aunque también podría sufrir daño el extremo sur del Distrito Federal (México)
+      </div>
+    </div>   
+  </div>
+    <div data-role="footer" data-theme="a">
+      <h4>Oswaldo Perez Valiente</h4>
+    </div>
+  </div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Volcan Calbuco</h1>
+  </div>
+   <div data-role="content" align="center">
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Tamaño:</h1>
+         
+           El volcán es de composición de andesita,1 alcanza los 2003 msnm, y su silueta es visible desde Osorno a Chiloé. Es parte de la reserva nacional Llanquihue, y de sus laderas nace el río Pescado.2
+
+      </div>
+    </div> 
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Localizacion:</h1>
+         El volcán Calbuco es un volcán activo localizado al sureste del lago Llanquihue (región de Los Lagos), al sur de Chile. Su ladera norte está dentro de la comuna de Puerto Varas y su ladera sur, en la de Puerto Montt.
+
+      </div>
+    </div> 
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Actividad: </h1>
+         
+           Existen registros históricos de varios siglos de su actividad volcánica; sin embargo, el geólogo Ignacio Domeyko publicó los primeros estudios sobre el volcán en 1861.
+En 1893 una fuerte y prolongada erupción —con grandes explosiones los días 19 de abril, 5 de septiembre, 5 de octubre y 29 de noviembre— destruyó la parte superior de su cono, que colapsó hacia el nordeste, dejando la silueta mocha que mantiene hasta hoy. Este episodio tuvo dimensiones catastróficas, pues produjo grandes lahares calientes y flujos piroclásticos de gran magnitud, incrementados por material colapsado del domo. Los colonos que ocupaban las tierras cercanas al volcán alcanzaron a abandonar el perímetro, por lo que no hubo víctimas; pero la geografía fue seriamente modificada: se formaron nuevas quebradas y se alteró el curso del río Hueñuhueñu.
+Tras cuarenta y tres años de inactividad, el Calbuco entró en erupción el 22 de abril de 2015 a las 18:11 (hora local; UTC –3).5 6 Debido a esto, el Sernageomín y la Onemi declararon alerta roja para el área y se fijó una zona de exclusión en un radio de 20 kilómetros
+      </div>
+    </div> 
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Monitoreo: </h1>
+         
+          las estaciones de monitoreo instaladas en las inmediaciones del Volcán Calbuco, registraron un sismo asociado a fracturamiento de roca, de magnitud local de 3,0 (ML), una profundidad de 16,1 kilómetros y localizado a 11,1 kilómetros al suroeste del cráter principal.
+Existen reportes de que el sismo fue percibido por la población residente del sector Piedra Azul, comuna de Puerto Montt. No obstante, a la hora de este informe, no se han registrado réplicas u otro tipo de eventos asociados.
+Hasta el momento la estabilidad del Volcán Calbuco no ha sido afectada, por tanto la alerta técnica volcánica se mantiene en Nivel Verde. En tanto, OVDAS – SERNAGEOMIN continuará con la vigilancia permanente en línea del volcán.
+
+      </div>
+    </div> 
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Medidas de Prevencion en cuanto a erupcion y caidas de ceniza:</h1>
+         
+           Infórmate, participa y coopera. Averigua si en tu localidad existe amenaza volcánica y mantente informado sobre el plan comunal de emergencia de tu municipio.
+Si te encuentras en una zona de riesgo, mantén la calma y prepárate con tu familia para evacuar cuando las autoridades te lo indiquen.<br> Mantente informado con una radio o televisor a pilas. 
+<h2>ERUPCIONES VOLCÁNICAS</h2>
+<br>
+Desconecta la energía eléctrica y cierra las llaves de paso de agua y gas.
+<br>
+Protégete. Cubre tu boca, nariz y oídos con paños húmedos.
+<br>
+Trasládate con tu familia a una zona de seguridad. Vuelve a tu hogar cuando las autoridades te indiquen que es seguro hacerlo.
+<br>
+No salgas de tu casa y respira a través de un paño húmedo. También protégete usando anteojos.
+<br>
+Cierra todas las ventanas, puertas y conductos de ventilación de tu vivienda.
+<br>
+Cubre con paños húmedos los espacios que queden alrededor de las ventanas y puertas.
+<br>
+Cubre los depósitos de agua para evitar que se contaminen con cenizas. 
+<br>
+Aléjate de los fondos de valle. Dirígete a lugares en altura por las vías de evacuación establecidas
+<br>
+No cruces quebradas o ríos.
+<br>
+Si estás manejando y eres sorprendido por una lluvia de cenizas, permanece dentro del vehículo con las ventanas y puertas cerradas. En caso de que puedas avanzar, hazlo lentamente.
+<h2>ANTE UNA ALERTA ROJA VOLCÁNICA</h2>
+SI LAS AUTORIDADES TE INDICAN QUE DEBES EVACUAR
+<br>
+SI NO DEBES EVACUAR Y EL VOLCÁN ESTÁ EMANANDO CENIZA
+<br>
+SI ESTÁS AL AIRE LIBRE... Aléjate de las áreas donde sopla el viento que proviene del volcán.
+
+      </div>
+    </div>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Que estados Afectaria:</h1>
+         
+           Ensenada – Correntoso – Colonia Río Sur – Alerce 
+      </div>
+    </div>   
+  </div>
+    <div data-role="footer" data-theme="a">
+      <h4>Oswaldo Perez Valiente</h4>
+    </div>
+  </div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Volcan de Colima</h1>
+  </div>
+   <div data-role="content" align="center">
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Tamaño:</h1>
+         
+           El volcán de Colima o volcán de Fuego se eleva entre 3870 y 3940 msnm, y su altura se encuentra en un constante cambio gracias a la constante actividad que ha presentado durante los últimos años; por eso resulta difícil decir con exactitud cuál es en estos momentos
+
+      </div>
+    </div> 
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Localizacion:</h1>
+         
+           El volcán de colima es un estratovolcán ubicado en los límites de los estados de Colima y Jalisco, en México. 
+
+      </div>
+    </div> 
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Actividad: </h1>
+         
+           A lo largo de 500 años, el volcán ha tenido más de 40 explosiones desde 1576, de entre las cuales destacan las de 1585, 1606, 1622, 1690, 1818, 1890, 1903, 1913 (el 13 de enero de ese año se cerró el cuarto ciclo de actividad) y 1999. El 6 de junio del 2005, a las 11.00 (hora local), se produjo una columna eruptiva que alcanzó 4 km sobre el volcán, arrojó cenizas de roca y piroclastos, y desde principios de enero del 2013 se ha clasificado en actividad creciente (se produjo una explosión estruendosa el día 29). Su ciclo eruptivo es de aproximadamente 100 años; en 2015 comenzó a presentar un aumento en su actividad que está en constante vigilancia.
+      </div>
+    </div> 
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Medidas de Prevencion en cuanto a erupcion y caidas de ceniza:</h1>
+         
+           Cerrar ventanas o cubrirlas y permanecer lo más posible dentro de la casa y tener los documentos imporatantes en caso de una posible erupcion
+
+      </div>
+    </div>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Que estados Afectaria:</h1>
+         
+           Adicionalmente, se debe tener en cuenta la actividad de menor grado, todo lo cual demuestra que a lo largo de los últimos siglos este volcán ha incrementado su proceso eruptivo, y se siguen estudiando los riesgos de una nueva erupción. En los estados de Colima y Jalisco, varias poblaciones son vulnerables ante una posible erupción. El depósito de flujos piroclásticos, lluvia de pómez y cenizas y de flujos de lodo o lahares podrían afectar en primera instancia a las poblaciones de La Yerbabuena, La Becerrera, Barranca del Agua, Rancho El Jabalí, Suchitlán, San Antonio y Rancho la Joya, en el estado de Colima, además de Juan Barragán, Agostadero, Los Machos, El Borobollón, Durazno, San Marcos, Tonila, Cofradía de Tonila, Causentla, El Fresnal, Atenguillo, Saucillo, El Embudo y El Chayán, en el estado de Jalisco, y en segundo término a otras poblaciones de ambos estados un poco más alejadas, como Quesería, Ciudad Guzmán, Tuxpan, la ciudad de Colima, Villa de Álvarez, Comala y Cuauhtémoc, entre otras.
+      </div>
+    </div>   
+  </div>
+    <div data-role="footer" data-theme="a">
+      <h4>Oswaldo Perez Valiente</h4>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
